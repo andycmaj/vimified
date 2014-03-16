@@ -19,3 +19,11 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/]\.(git|hg|svn)$',
   \ 'file': '\v\.(exe|so|dll|jpg|jpeg|avi|mpg|mpeg|mp4|mov|wmv)$'
   \ }
+
+" Load c# configuration (ie to overwrite shorcuts)
+if filereadable(expand("~/.vim/after.vimrc"))
+  " source ~/.vim/csharp.vimrc
+  source ~/.vim/ycm.vimrc
+endif
+
+

@@ -90,7 +90,7 @@ if count(g:vimified_packages, 'general')
 
     Bundle 'Spaceghost/vim-matchit'
     Bundle 'kien/ctrlp.vim'
-    let g:ctrlp_working_path_mode = ''
+    let g:ctrlp_working_path_mode = 'r'
 
     Bundle 'vim-scripts/scratch.vim'
 
@@ -276,6 +276,17 @@ if count(g:vimified_packages, 'color')
     endif
 else
     colorscheme default
+endif
+" }}}
+"
+" _. C# {{{
+if count(g:vimified_packages, 'csharp')
+    Bundle 'tpope/vim-dispatch'
+
+    Bundle 'nosami/Omnisharp'
+
+    "Bundle 'Valloric/YouCompleteMe'
+    Bundle 'Shougo/neocomplete'
 endif
 " }}}
 

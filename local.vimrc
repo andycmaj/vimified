@@ -1,1 +1,3 @@
-let g:vimified_packages = ['general', 'color', 'fancy', 'coding']
+let g:vimified_packages = ['general', 'color', 'fancy', 'coding', 'csharp']
+
+
